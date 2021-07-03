@@ -1,0 +1,31 @@
+/*===== FORM =====*/
+.form {
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.form-content {
+  width: 18.125rem;
+}
+
+.form-img {
+  display: none;
+}
+
+.form-title {
+  font-size: var(--big-font-size);
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.form__div {
+  position: relative;
+  display: grid;
+  grid-template-columns: 7% 93%;
+  margin-bottom: 1rem;
+  padding: 0.25rem 0;
+  border-bottom: 1px solid var(--text-color);
+}

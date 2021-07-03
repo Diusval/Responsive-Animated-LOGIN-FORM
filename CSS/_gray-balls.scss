@@ -1,0 +1,27 @@
+/*=== GRAY BALLS  ===*/
+.boll-top,
+.boll-bottom {
+  position: absolute;
+  width: 12.5rem;
+  height: 12.5rem;
+  border-radius: 50%;
+}
+.boll-top {
+  top: -7rem;
+  left: -3.5rem;
+  background: linear-gradient(
+    180deg,
+    var(--first-color) 0%,
+    rgba(196, 196, 196, 0) 100%
+  );
+}
+.boll-bottom {
+  bottom: -6rem;
+  right: -5.5rem;
+  background: linear-gradient(
+    180deg,
+    var(--first-color) 0%,
+    rgba(196, 196, 196, 0) 100%
+  );
+  transform: rotate(180deg);
+}
